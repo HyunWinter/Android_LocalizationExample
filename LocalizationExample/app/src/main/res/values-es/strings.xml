@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Configuraciones</string>
+    <string name="settings_general">General</string>
+    <string name="settings_language">Idioma</string>
+</resources>

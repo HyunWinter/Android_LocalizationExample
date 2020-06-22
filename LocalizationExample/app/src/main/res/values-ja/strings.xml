@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings Activity Title -->
+    <string name="settings">設定</string>
+    <string name="settings_general">一般的な</string>
+    <string name="settings_language">言語</string>
+</resources>

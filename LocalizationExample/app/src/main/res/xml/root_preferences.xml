@@ -1,0 +1,20 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        android:title="@string/settings_general">
+
+        <ListPreference
+            android:key="@string/pref_language_key"
+            android:title="@string/settings_language"
+            android:summary="%s"
+            android:icon="@drawable/ic_baseline_language_24"
+            android:entries="@array/pref_language_array"
+            android:entryValues="@array/pref_language_alias"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

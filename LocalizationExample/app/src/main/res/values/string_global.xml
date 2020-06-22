@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="app_name">LocalizationExample</string>
+
+    <!-- Settings -->
+    <string name="pref_common_key">pref_common</string>
+    <string name="pref_language_key">pref_language</string>
+    <string-array name="pref_language_array">
+        <item>English</item>
+        <item>Deutsch</item>
+        <item>Español</item>
+        <item>Français</item>
+        <item>中文</item>
+        <item>日本語</item>
+        <item>한국어</item>
+    </string-array>
+    <string-array name="pref_language_alias">
+        <item>en</item>
+        <item>de</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>zh</item>
+        <item>ja</item>
+        <item>ko</item>
+    </string-array>
+</resources>
